@@ -204,7 +204,6 @@ body {
     #flexibility-image {
         display: flex;
         justify-content: flex-end;
-        margin-left: 10px;
     }
 
     #speed-image {
@@ -418,4 +417,227 @@ body {
 
 
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    img {
+        width: 100vw;
+    }
+
+    body {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    nav {
+        background-color: #540B51;
+    }
+
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0%;
+        margin: 0%;
+        border: 0;
+    }
+
+
+    nav .button {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+
+    nav img {
+        width: 100px;
+        padding: 30px;
+    }   
+
+    nav ul {
+        display: none;
+    }
+
+    button {
+        background-color: #540B51;
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+
+    button img {
+        width: 20px;
+        padding: 0px;
+        margin-right: 20px;
+
+    }
+
+
+    header {
+        display: flex;
+        flex-direction: row;
+        height: 800px;
+        background-image: url(/starter_code/images/background-singup.png);
+        background-size: cover;
+    }
+
+    .header_left {
+        display: flex;
+        flex-direction: column;
+        width: 66vw;
+    }
+
+    .image-below {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 33vw;
+        max-width: 33vw;
+        overflow: hidden;
+
+    }
+
+    .image-below img {
+        width: 33vw;
+        zoom: 1.9;
+    }
+
+    h1 {
+        color: white;
+        display: flex;
+        text-align: left;
+        font-size: 3.5rem;
+        padding-right: 30px;
+        padding-left: 30px;
+        width: 60%;
+    }
+
+    .free {
+        color: #ECB12F;
+    }
+    
+    .try {
+        color: white;
+        text-align: left;
+        padding-left: 30px;
+        font-size: 1.2rem;
+        width: 60%;
+    }
+
+    .middle-button {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    #email {
+        background-color: white;
+        color: purple;
+        width: 95%;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 1rem;
+        font-weight: 200;
+        text-transform: uppercase;
+    }
+    
+    #google {
+        background-color: #4285F4;
+        color: white;
+        width: 95%;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 1rem;
+        font-weight: 200;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 55px;
+        
+    }
+    
+    #google img {
+        padding: 10px;
+        margin: 0;
+        background-color: white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    main {
+        background-color: #F3EAE2;
+
+    }
+    
+    .companies {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .companies p {
+        font-size: 0.8rem;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    .logos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 35px;
+        padding-bottom: 20px;
+      } 
+
+    .logos img {
+        height: 30px;
+        width: auto;
+    }
+
+
+    .connected {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .connected img {
+        width: 66vw;
+    }
+
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
 
